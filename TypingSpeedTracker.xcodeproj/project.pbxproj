@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783EA8C72E5C36690033B4B1 /* TypingSpeedTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783EA8C62E5C36690033B4B1 /* TypingSpeedTrackerApp.swift */; };
+		783EA8C92E5C36690033B4B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783EA8C82E5C36690033B4B1 /* ContentView.swift */; };
+		783EA8CB2E5C366B0033B4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783EA8CA2E5C366B0033B4B1 /* Assets.xcassets */; };
+		783EA8CE2E5C366B0033B4B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783EA8CD2E5C366B0033B4B1 /* Preview Assets.xcassets */; };
+		783EA8D82E5C366C0033B4B1 /* TypingSpeedTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783EA8D72E5C366C0033B4B1 /* TypingSpeedTrackerTests.swift */; };
+		783EA8E22E5C366C0033B4B1 /* TypingSpeedTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783EA8E12E5C366C0033B4B1 /* TypingSpeedTrackerUITests.swift */; };
+		783EA8E42E5C366C0033B4B1 /* TypingSpeedTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783EA8E32E5C366C0033B4B1 /* TypingSpeedTrackerUITestsLaunchTests.swift */; };
+		783EA8F12E5C44B50033B4B1 /* TestLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783EA8F02E5C44B50033B4B1 /* TestLogic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		783EA8D42E5C366B0033B4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783EA8BB2E5C36690033B4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783EA8C22E5C36690033B4B1;
+			remoteInfo = TypingSpeedTracker;
+		};
+		783EA8DE2E5C366C0033B4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783EA8BB2E5C36690033B4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783EA8C22E5C36690033B4B1;
+			remoteInfo = TypingSpeedTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783EA8C32E5C36690033B4B1 /* TypingSpeedTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingSpeedTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783EA8C62E5C36690033B4B1 /* TypingSpeedTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingSpeedTrackerApp.swift; sourceTree = "<group>"; };
+		783EA8C82E5C36690033B4B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		783EA8CA2E5C366B0033B4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		783EA8CD2E5C366B0033B4B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		783EA8D32E5C366B0033B4B1 /* TypingSpeedTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingSpeedTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783EA8D72E5C366C0033B4B1 /* TypingSpeedTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingSpeedTrackerTests.swift; sourceTree = "<group>"; };
+		783EA8DD2E5C366C0033B4B1 /* TypingSpeedTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingSpeedTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783EA8E12E5C366C0033B4B1 /* TypingSpeedTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingSpeedTrackerUITests.swift; sourceTree = "<group>"; };
+		783EA8E32E5C366C0033B4B1 /* TypingSpeedTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingSpeedTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		783EA8F02E5C44B50033B4B1 /* TestLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLogic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783EA8C02E5C36690033B4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EA8D02E5C366B0033B4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EA8DA2E5C366C0033B4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783EA8BA2E5C36690033B4B1 = {
+			isa = PBXGroup;
+			children = (
+				783EA8C52E5C36690033B4B1 /* TypingSpeedTracker */,
+				783EA8D62E5C366C0033B4B1 /* TypingSpeedTrackerTests */,
+				783EA8E02E5C366C0033B4B1 /* TypingSpeedTrackerUITests */,
+				783EA8C42E5C36690033B4B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783EA8C42E5C36690033B4B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783EA8C32E5C36690033B4B1 /* TypingSpeedTracker.app */,
+				783EA8D32E5C366B0033B4B1 /* TypingSpeedTrackerTests.xctest */,
+				783EA8DD2E5C366C0033B4B1 /* TypingSpeedTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783EA8C52E5C36690033B4B1 /* TypingSpeedTracker */ = {
+			isa = PBXGroup;
+			children = (
+				783EA8C62E5C36690033B4B1 /* TypingSpeedTrackerApp.swift */,
+				783EA8C82E5C36690033B4B1 /* ContentView.swift */,
+				783EA8CA2E5C366B0033B4B1 /* Assets.xcassets */,
+				783EA8CC2E5C366B0033B4B1 /* Preview Content */,
+				783EA8F02E5C44B50033B4B1 /* TestLogic.swift */,
+			);
+			path = TypingSpeedTracker;
+			sourceTree = "<group>";
+		};
+		783EA8CC2E5C366B0033B4B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				783EA8CD2E5C366B0033B4B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		783EA8D62E5C366C0033B4B1 /* TypingSpeedTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				783EA8D72E5C366C0033B4B1 /* TypingSpeedTrackerTests.swift */,
+			);
+			path = TypingSpeedTrackerTests;
+			sourceTree = "<group>";
+		};
+		783EA8E02E5C366C0033B4B1 /* TypingSpeedTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				783EA8E12E5C366C0033B4B1 /* TypingSpeedTrackerUITests.swift */,
+				783EA8E32E5C366C0033B4B1 /* TypingSpeedTrackerUITestsLaunchTests.swift */,
+			);
+			path = TypingSpeedTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783EA8C22E5C36690033B4B1 /* TypingSpeedTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783EA8E72E5C366C0033B4B1 /* Build configuration list for PBXNativeTarget "TypingSpeedTracker" */;
+			buildPhases = (
+				783EA8BF2E5C36690033B4B1 /* Sources */,
+				783EA8C02E5C36690033B4B1 /* Frameworks */,
+				783EA8C12E5C36690033B4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingSpeedTracker;
+			productName = TypingSpeedTracker;
+			productReference = 783EA8C32E5C36690033B4B1 /* TypingSpeedTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		783EA8D22E5C366B0033B4B1 /* TypingSpeedTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783EA8EA2E5C366C0033B4B1 /* Build configuration list for PBXNativeTarget "TypingSpeedTrackerTests" */;
+			buildPhases = (
+				783EA8CF2E5C366B0033B4B1 /* Sources */,
+				783EA8D02E5C366B0033B4B1 /* Frameworks */,
+				783EA8D12E5C366B0033B4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783EA8D52E5C366B0033B4B1 /* PBXTargetDependency */,
+			);
+			name = TypingSpeedTrackerTests;
+			productName = TypingSpeedTrackerTests;
+			productReference = 783EA8D32E5C366B0033B4B1 /* TypingSpeedTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		783EA8DC2E5C366C0033B4B1 /* TypingSpeedTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783EA8ED2E5C366C0033B4B1 /* Build configuration list for PBXNativeTarget "TypingSpeedTrackerUITests" */;
+			buildPhases = (
+				783EA8D92E5C366C0033B4B1 /* Sources */,
+				783EA8DA2E5C366C0033B4B1 /* Frameworks */,
+				783EA8DB2E5C366C0033B4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783EA8DF2E5C366C0033B4B1 /* PBXTargetDependency */,
+			);
+			name = TypingSpeedTrackerUITests;
+			productName = TypingSpeedTrackerUITests;
+			productReference = 783EA8DD2E5C366C0033B4B1 /* TypingSpeedTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783EA8BB2E5C36690033B4B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					783EA8C22E5C36690033B4B1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					783EA8D22E5C366B0033B4B1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 783EA8C22E5C36690033B4B1;
+					};
+					783EA8DC2E5C366C0033B4B1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 783EA8C22E5C36690033B4B1;
+					};
+				};
+			};
+			buildConfigurationList = 783EA8BE2E5C36690033B4B1 /* Build configuration list for PBXProject "TypingSpeedTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 783EA8BA2E5C36690033B4B1;
+			productRefGroup = 783EA8C42E5C36690033B4B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783EA8C22E5C36690033B4B1 /* TypingSpeedTracker */,
+				783EA8D22E5C366B0033B4B1 /* TypingSpeedTrackerTests */,
+				783EA8DC2E5C366C0033B4B1 /* TypingSpeedTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783EA8C12E5C36690033B4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783EA8CE2E5C366B0033B4B1 /* Preview Assets.xcassets in Resources */,
+				783EA8CB2E5C366B0033B4B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EA8D12E5C366B0033B4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EA8DB2E5C366C0033B4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783EA8BF2E5C36690033B4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783EA8C92E5C36690033B4B1 /* ContentView.swift in Sources */,
+				783EA8F12E5C44B50033B4B1 /* TestLogic.swift in Sources */,
+				783EA8C72E5C36690033B4B1 /* TypingSpeedTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EA8CF2E5C366B0033B4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783EA8D82E5C366C0033B4B1 /* TypingSpeedTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EA8D92E5C366C0033B4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783EA8E42E5C366C0033B4B1 /* TypingSpeedTrackerUITestsLaunchTests.swift in Sources */,
+				783EA8E22E5C366C0033B4B1 /* TypingSpeedTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783EA8D52E5C366B0033B4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783EA8C22E5C36690033B4B1 /* TypingSpeedTracker */;
+			targetProxy = 783EA8D42E5C366B0033B4B1 /* PBXContainerItemProxy */;
+		};
+		783EA8DF2E5C366C0033B4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783EA8C22E5C36690033B4B1 /* TypingSpeedTracker */;
+			targetProxy = 783EA8DE2E5C366C0033B4B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		783EA8E52E5C366C0033B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		783EA8E62E5C366C0033B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783EA8E82E5C366C0033B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TypingSpeedTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.TypingSpeedTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783EA8E92E5C366C0033B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TypingSpeedTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.TypingSpeedTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		783EA8EB2E5C366C0033B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.TypingSpeedTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypingSpeedTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TypingSpeedTracker";
+			};
+			name = Debug;
+		};
+		783EA8EC2E5C366C0033B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.TypingSpeedTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypingSpeedTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TypingSpeedTracker";
+			};
+			name = Release;
+		};
+		783EA8EE2E5C366C0033B4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.TypingSpeedTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TypingSpeedTracker;
+			};
+			name = Debug;
+		};
+		783EA8EF2E5C366C0033B4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization.TypingSpeedTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TypingSpeedTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783EA8BE2E5C36690033B4B1 /* Build configuration list for PBXProject "TypingSpeedTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783EA8E52E5C366C0033B4B1 /* Debug */,
+				783EA8E62E5C366C0033B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783EA8E72E5C366C0033B4B1 /* Build configuration list for PBXNativeTarget "TypingSpeedTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783EA8E82E5C366C0033B4B1 /* Debug */,
+				783EA8E92E5C366C0033B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783EA8EA2E5C366C0033B4B1 /* Build configuration list for PBXNativeTarget "TypingSpeedTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783EA8EB2E5C366C0033B4B1 /* Debug */,
+				783EA8EC2E5C366C0033B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783EA8ED2E5C366C0033B4B1 /* Build configuration list for PBXNativeTarget "TypingSpeedTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783EA8EE2E5C366C0033B4B1 /* Debug */,
+				783EA8EF2E5C366C0033B4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783EA8BB2E5C36690033B4B1 /* Project object */;
+}
