@@ -16,7 +16,7 @@ struct TestLogic: View {
                text: $username
            )
         .padding()
-        .disableAutocorrection(true)
+
     }
 }
 
